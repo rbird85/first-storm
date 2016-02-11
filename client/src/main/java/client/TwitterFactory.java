@@ -11,10 +11,10 @@ public class TwitterFactory {
 	   if(twitter == null){
 		   ConfigurationBuilder cb = new ConfigurationBuilder();
 		   cb.setDebugEnabled(true)
-		           .setOAuthConsumerKey("IOlX1r0MVVjzEpH22PZajYNb5")
-		           .setOAuthConsumerSecret("RizCM7yC54N5G6nmyd0oB54YLk20zIuyFtAnAVbCR31hn8pHQQ")
-		           .setOAuthAccessToken("71831310-pKcJgglZeOB1JRA7x9RhdRiPDl8gsNBhFjMRHxPA3")
-		           .setOAuthAccessTokenSecret("EweApyNOUkaMmPJp1k0AU2bVHDiM3MA1aqBIjDPKYiQKu");
+		           .setOAuthConsumerKey("aa")
+		           .setOAuthConsumerSecret("aa")
+		           .setOAuthAccessToken("ss")
+		           .setOAuthAccessTokenSecret("ss");
 	
 		   twitter = new twitter4j.TwitterFactory(cb.build()).getInstance();
 	   }
